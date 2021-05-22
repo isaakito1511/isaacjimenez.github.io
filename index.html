@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/isaakito1511/isaacjimenez.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isaakito1511/isaacjimenez.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datos biográficos">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <title> Datos biográficos </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com
+    /bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9ba
+    Dl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Estilos.css">
+</head>
+<body>
+ <header>
+        
+    <nav>
+        <nav class="menu">
+         <ul>
+            <li><a href="#Inicio">Datos biográficos</a></li>
+            <li><a href="HTML/Experiencia.html" target="_blank">Experiencia</a></li>
+            <li><a href="HTML/Forodemensajes.html" target="_blank">Foro de mensajes</a></li>
+            <li><a href="HTML/Lineadeltiempo.html" target="_blank">Linea del tiempo</a></li>
+            <li><a href="HTML/Materialdeinterés.html" target="_blank">Material de interés</a></li>
+        </ul>
+    </nav>
+ </header>
+ <div class="containerall">
+     <h1 class="titulo">Datos Biográficos</h1>
+    <div class="contentarticle">
+      <label for="dark-mode" class="dark-mode-button">Modo Oscuro
+        <input type="checkbox" id="dark-mode" 
+        onclick="document.documentElement.classList.toggle('dark-mode')">
+      </label>
+ 
+    <img class="bio" src="Imagenes/bio.jpg" alt="">
+    <img class="bid" src="Imagenes/isaac2.jpg" alt="">
+    <h1>¡Bienvenidos!</h1>
+    <p> 
+      En está página encontarán unos datos básicos de la 
+      vida de Mario Isaac Jiménez Gómez.
+    </p>
+    <table id="t01">
+        <tr>
+          <td>Nombre</td>
+          <td>Mario Isaac Jiménez Gómez</td>  
+        </tr>
+        <tr>
+          <td>Nacimiento</td>
+          <td>15 de Noviembre de 2004, Bogotá, Colombia.</td>  
+        </tr>
+        <tr>
+          <td>Información Familiar</td>
+          <td>Madre: Jenny Paola Gómez Calderón 
+            Padre: Mario Alfonso Jiménez Zárate</td>
+        </tr>
+        <tr>
+          <td>Edad</td>
+          <td>16 años</td>
+        </tr>
+        <tr>
+          <td>Estatura</td>
+          <td>1.69 metros</td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td>Fútbol, Música</td> 
+        </tr>
+      </table>
+    </div>
+</div>
+    
+</body>
+</html>
